@@ -8,12 +8,11 @@
             string myStreet = "Hollyhock Lane";
             int streetNum = 5263;
             char myUnit = 'Z';
-            double myGPA = 2.7;
-            decimal myIQ = 85.29877m;
-            bool notMyAddress = false;
-            Console.WriteLine($"The address entered was: {myStreet} {streetNum} {myUnit}");              
-            Console.WriteLine(notMyAddress);
-            Console.WriteLine($"My GPA and IQ are: {myGPA} {myIQ}");
+            double yearsOwned = 2.7;
+            decimal monthsOwned = 11.29877m;
+            bool address = false;
+            Console.WriteLine($"This my address {myStreet} {streetNum} {myUnit}: {address}");              
+            Console.WriteLine($"The owner has lived here for {yearsOwned} years and {monthsOwned} months");
         }
     }
 }
